@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F301626E2ADA63E7006DBB0B /* FlipTreeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301626D2ADA63E7006DBB0B /* FlipTreeApp.swift */; };
+		F30162702ADA63E7006DBB0B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301626F2ADA63E7006DBB0B /* RootView.swift */; };
+		F30162722ADA63E9006DBB0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30162712ADA63E9006DBB0B /* Assets.xcassets */; };
+		F30162762ADA63E9006DBB0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30162752ADA63E9006DBB0B /* Preview Assets.xcassets */; };
+		F30162802ADA63E9006DBB0B /* FlipTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301627F2ADA63E9006DBB0B /* FlipTreeTests.swift */; };
+		F301628A2ADA63E9006DBB0B /* FlipTreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162892ADA63E9006DBB0B /* FlipTreeUITests.swift */; };
+		F301628C2ADA63E9006DBB0B /* FlipTreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301628B2ADA63E9006DBB0B /* FlipTreeUITestsLaunchTests.swift */; };
+		F301629C2ADA653A006DBB0B /* FTSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F301629B2ADA653A006DBB0B /* FTSplashView.swift */; };
+		F30162A12ADA723F006DBB0B /* FlipTreeModels in Frameworks */ = {isa = PBXBuildFile; productRef = F30162A02ADA723F006DBB0B /* FlipTreeModels */; };
+		F30162A52ADAA19C006DBB0B /* FlipTreeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162A42ADAA19C006DBB0B /* FlipTreeConfig.swift */; };
+		F30162A92ADAA61B006DBB0B /* FTMovieVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162A82ADAA61B006DBB0B /* FTMovieVM.swift */; };
+		F30162AA2ADAA61B006DBB0B /* FTMovieVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162A82ADAA61B006DBB0B /* FTMovieVM.swift */; };
+		F30162AC2ADAA697006DBB0B /* FlipTreeFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = F30162AB2ADAA697006DBB0B /* FlipTreeFoundation */; };
+		F30162AE2ADAA69E006DBB0B /* FlipTreeDataHandlers in Frameworks */ = {isa = PBXBuildFile; productRef = F30162AD2ADAA69E006DBB0B /* FlipTreeDataHandlers */; };
+		F30162B02ADAA6DA006DBB0B /* FTMovieHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162AF2ADAA6DA006DBB0B /* FTMovieHomeView.swift */; };
+		F30162B12ADAA6DA006DBB0B /* FTMovieHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162AF2ADAA6DA006DBB0B /* FTMovieHomeView.swift */; };
+		F30162B42ADAABB7006DBB0B /* FlipTreeCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F30162B22ADAABB7006DBB0B /* FlipTreeCoreData.xcdatamodeld */; };
+		F30162B62ADAC57F006DBB0B /* FTEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162B52ADAC57F006DBB0B /* FTEnvironment.swift */; };
+		F30162BC2ADB5123006DBB0B /* FTMovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162BB2ADB5123006DBB0B /* FTMovieDetailView.swift */; };
+		F30162BD2ADB5123006DBB0B /* FTMovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30162BB2ADB5123006DBB0B /* FTMovieDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F301627C2ADA63E9006DBB0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30162622ADA63E7006DBB0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30162692ADA63E7006DBB0B;
+			remoteInfo = FlipTree;
+		};
+		F30162862ADA63E9006DBB0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30162622ADA63E7006DBB0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30162692ADA63E7006DBB0B;
+			remoteInfo = FlipTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F301626A2ADA63E7006DBB0B /* FlipTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F301626D2ADA63E7006DBB0B /* FlipTreeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTreeApp.swift; sourceTree = "<group>"; };
+		F301626F2ADA63E7006DBB0B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		F30162712ADA63E9006DBB0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30162732ADA63E9006DBB0B /* FlipTree.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FlipTree.entitlements; sourceTree = "<group>"; };
+		F30162752ADA63E9006DBB0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F301627B2ADA63E9006DBB0B /* FlipTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F301627F2ADA63E9006DBB0B /* FlipTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTreeTests.swift; sourceTree = "<group>"; };
+		F30162852ADA63E9006DBB0B /* FlipTreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipTreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30162892ADA63E9006DBB0B /* FlipTreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTreeUITests.swift; sourceTree = "<group>"; };
+		F301628B2ADA63E9006DBB0B /* FlipTreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F301629B2ADA653A006DBB0B /* FTSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTSplashView.swift; sourceTree = "<group>"; };
+		F301629E2ADA6DC6006DBB0B /* FlipTreeModels */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FlipTreeModels; path = ../FlipTreeModels; sourceTree = "<group>"; };
+		F30162A22ADA7313006DBB0B /* FlipTreeDataHandlers */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FlipTreeDataHandlers; path = ../FlipTreeDataHandlers; sourceTree = "<group>"; };
+		F30162A32ADA7F79006DBB0B /* FlipTreeFoundation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FlipTreeFoundation; path = ../FlipTreeFoundation; sourceTree = "<group>"; };
+		F30162A42ADAA19C006DBB0B /* FlipTreeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipTreeConfig.swift; sourceTree = "<group>"; };
+		F30162A82ADAA61B006DBB0B /* FTMovieVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTMovieVM.swift; sourceTree = "<group>"; };
+		F30162AF2ADAA6DA006DBB0B /* FTMovieHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTMovieHomeView.swift; sourceTree = "<group>"; };
+		F30162B32ADAABB7006DBB0B /* FlipTreeCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlipTreeCoreData.xcdatamodel; sourceTree = "<group>"; };
+		F30162B52ADAC57F006DBB0B /* FTEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTEnvironment.swift; sourceTree = "<group>"; };
+		F30162BA2ADAE427006DBB0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F30162BB2ADB5123006DBB0B /* FTMovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTMovieDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30162672ADA63E7006DBB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30162AC2ADAA697006DBB0B /* FlipTreeFoundation in Frameworks */,
+				F30162AE2ADAA69E006DBB0B /* FlipTreeDataHandlers in Frameworks */,
+				F30162A12ADA723F006DBB0B /* FlipTreeModels in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30162782ADA63E9006DBB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30162822ADA63E9006DBB0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30162612ADA63E7006DBB0B = {
+			isa = PBXGroup;
+			children = (
+				F30162A32ADA7F79006DBB0B /* FlipTreeFoundation */,
+				F301629E2ADA6DC6006DBB0B /* FlipTreeModels */,
+				F30162A22ADA7313006DBB0B /* FlipTreeDataHandlers */,
+				F301626C2ADA63E7006DBB0B /* FlipTree */,
+				F301627E2ADA63E9006DBB0B /* FlipTreeTests */,
+				F30162882ADA63E9006DBB0B /* FlipTreeUITests */,
+				F301626B2ADA63E7006DBB0B /* Products */,
+				F301629F2ADA723F006DBB0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F301626B2ADA63E7006DBB0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F301626A2ADA63E7006DBB0B /* FlipTree.app */,
+				F301627B2ADA63E9006DBB0B /* FlipTreeTests.xctest */,
+				F30162852ADA63E9006DBB0B /* FlipTreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F301626C2ADA63E7006DBB0B /* FlipTree */ = {
+			isa = PBXGroup;
+			children = (
+				F30162BA2ADAE427006DBB0B /* Info.plist */,
+				F30162B22ADAABB7006DBB0B /* FlipTreeCoreData.xcdatamodeld */,
+				F30162982ADA64DD006DBB0B /* Root */,
+				F30162992ADA64F2006DBB0B /* Modules */,
+				F30162B72ADAC84F006DBB0B /* Assets */,
+				F30162732ADA63E9006DBB0B /* FlipTree.entitlements */,
+				F30162742ADA63E9006DBB0B /* Preview Content */,
+			);
+			path = FlipTree;
+			sourceTree = "<group>";
+		};
+		F30162742ADA63E9006DBB0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F30162752ADA63E9006DBB0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F301627E2ADA63E9006DBB0B /* FlipTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F301627F2ADA63E9006DBB0B /* FlipTreeTests.swift */,
+			);
+			path = FlipTreeTests;
+			sourceTree = "<group>";
+		};
+		F30162882ADA63E9006DBB0B /* FlipTreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F30162892ADA63E9006DBB0B /* FlipTreeUITests.swift */,
+				F301628B2ADA63E9006DBB0B /* FlipTreeUITestsLaunchTests.swift */,
+			);
+			path = FlipTreeUITests;
+			sourceTree = "<group>";
+		};
+		F30162982ADA64DD006DBB0B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F301626D2ADA63E7006DBB0B /* FlipTreeApp.swift */,
+				F30162A42ADAA19C006DBB0B /* FlipTreeConfig.swift */,
+				F30162B52ADAC57F006DBB0B /* FTEnvironment.swift */,
+				F301626F2ADA63E7006DBB0B /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F30162992ADA64F2006DBB0B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F301629A2ADA6513006DBB0B /* Launch */,
+				F301629D2ADA6BEE006DBB0B /* Movie */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F301629A2ADA6513006DBB0B /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				F301629B2ADA653A006DBB0B /* FTSplashView.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		F301629D2ADA6BEE006DBB0B /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				F30162A62ADAA5EC006DBB0B /* ViewModel */,
+				F30162A72ADAA5FC006DBB0B /* View */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		F301629F2ADA723F006DBB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F30162A62ADAA5EC006DBB0B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F30162A82ADAA61B006DBB0B /* FTMovieVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F30162A72ADAA5FC006DBB0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F30162AF2ADAA6DA006DBB0B /* FTMovieHomeView.swift */,
+				F30162BB2ADB5123006DBB0B /* FTMovieDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F30162B72ADAC84F006DBB0B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F30162712ADA63E9006DBB0B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30162692ADA63E7006DBB0B /* FlipTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F301628F2ADA63E9006DBB0B /* Build configuration list for PBXNativeTarget "FlipTree" */;
+			buildPhases = (
+				F30162662ADA63E7006DBB0B /* Sources */,
+				F30162672ADA63E7006DBB0B /* Frameworks */,
+				F30162682ADA63E7006DBB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipTree;
+			packageProductDependencies = (
+				F30162A02ADA723F006DBB0B /* FlipTreeModels */,
+				F30162AB2ADAA697006DBB0B /* FlipTreeFoundation */,
+				F30162AD2ADAA69E006DBB0B /* FlipTreeDataHandlers */,
+			);
+			productName = FlipTree;
+			productReference = F301626A2ADA63E7006DBB0B /* FlipTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F301627A2ADA63E9006DBB0B /* FlipTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30162922ADA63E9006DBB0B /* Build configuration list for PBXNativeTarget "FlipTreeTests" */;
+			buildPhases = (
+				F30162772ADA63E9006DBB0B /* Sources */,
+				F30162782ADA63E9006DBB0B /* Frameworks */,
+				F30162792ADA63E9006DBB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F301627D2ADA63E9006DBB0B /* PBXTargetDependency */,
+			);
+			name = FlipTreeTests;
+			productName = FlipTreeTests;
+			productReference = F301627B2ADA63E9006DBB0B /* FlipTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F30162842ADA63E9006DBB0B /* FlipTreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30162952ADA63E9006DBB0B /* Build configuration list for PBXNativeTarget "FlipTreeUITests" */;
+			buildPhases = (
+				F30162812ADA63E9006DBB0B /* Sources */,
+				F30162822ADA63E9006DBB0B /* Frameworks */,
+				F30162832ADA63E9006DBB0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30162872ADA63E9006DBB0B /* PBXTargetDependency */,
+			);
+			name = FlipTreeUITests;
+			productName = FlipTreeUITests;
+			productReference = F30162852ADA63E9006DBB0B /* FlipTreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30162622ADA63E7006DBB0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F30162692ADA63E7006DBB0B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F301627A2ADA63E9006DBB0B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F30162692ADA63E7006DBB0B;
+					};
+					F30162842ADA63E9006DBB0B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F30162692ADA63E7006DBB0B;
+					};
+				};
+			};
+			buildConfigurationList = F30162652ADA63E7006DBB0B /* Build configuration list for PBXProject "FlipTree" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30162612ADA63E7006DBB0B;
+			productRefGroup = F301626B2ADA63E7006DBB0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30162692ADA63E7006DBB0B /* FlipTree */,
+				F301627A2ADA63E9006DBB0B /* FlipTreeTests */,
+				F30162842ADA63E9006DBB0B /* FlipTreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30162682ADA63E7006DBB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30162762ADA63E9006DBB0B /* Preview Assets.xcassets in Resources */,
+				F30162722ADA63E9006DBB0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30162792ADA63E9006DBB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30162832ADA63E9006DBB0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30162662ADA63E7006DBB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30162B02ADAA6DA006DBB0B /* FTMovieHomeView.swift in Sources */,
+				F30162A52ADAA19C006DBB0B /* FlipTreeConfig.swift in Sources */,
+				F30162B42ADAABB7006DBB0B /* FlipTreeCoreData.xcdatamodeld in Sources */,
+				F30162A92ADAA61B006DBB0B /* FTMovieVM.swift in Sources */,
+				F30162BC2ADB5123006DBB0B /* FTMovieDetailView.swift in Sources */,
+				F30162702ADA63E7006DBB0B /* RootView.swift in Sources */,
+				F30162B62ADAC57F006DBB0B /* FTEnvironment.swift in Sources */,
+				F301626E2ADA63E7006DBB0B /* FlipTreeApp.swift in Sources */,
+				F301629C2ADA653A006DBB0B /* FTSplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30162772ADA63E9006DBB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30162B12ADAA6DA006DBB0B /* FTMovieHomeView.swift in Sources */,
+				F30162802ADA63E9006DBB0B /* FlipTreeTests.swift in Sources */,
+				F30162BD2ADB5123006DBB0B /* FTMovieDetailView.swift in Sources */,
+				F30162AA2ADAA61B006DBB0B /* FTMovieVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30162812ADA63E9006DBB0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F301628C2ADA63E9006DBB0B /* FlipTreeUITestsLaunchTests.swift in Sources */,
+				F301628A2ADA63E9006DBB0B /* FlipTreeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F301627D2ADA63E9006DBB0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30162692ADA63E7006DBB0B /* FlipTree */;
+			targetProxy = F301627C2ADA63E9006DBB0B /* PBXContainerItemProxy */;
+		};
+		F30162872ADA63E9006DBB0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30162692ADA63E7006DBB0B /* FlipTree */;
+			targetProxy = F30162862ADA63E9006DBB0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F301628D2ADA63E9006DBB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F301628E2ADA63E9006DBB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F30162902ADA63E9006DBB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlipTree/FlipTree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlipTree/Preview Content\"";
+				DEVELOPMENT_TEAM = 676NN4N24V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipTree/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albinmrngstar.FlipTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F30162912ADA63E9006DBB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FlipTree/FlipTree.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlipTree/Preview Content\"";
+				DEVELOPMENT_TEAM = 676NN4N24V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlipTree/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albinmrngstar.FlipTree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F30162932ADA63E9006DBB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 676NN4N24V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albinmrngstar.FlipTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipTree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlipTree";
+			};
+			name = Debug;
+		};
+		F30162942ADA63E9006DBB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 676NN4N24V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albinmrngstar.FlipTreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlipTree.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlipTree";
+			};
+			name = Release;
+		};
+		F30162962ADA63E9006DBB0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 676NN4N24V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albinmrngstar.FlipTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipTree;
+			};
+			name = Debug;
+		};
+		F30162972ADA63E9006DBB0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 676NN4N24V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albinmrngstar.FlipTreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlipTree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30162652ADA63E7006DBB0B /* Build configuration list for PBXProject "FlipTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F301628D2ADA63E9006DBB0B /* Debug */,
+				F301628E2ADA63E9006DBB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F301628F2ADA63E9006DBB0B /* Build configuration list for PBXNativeTarget "FlipTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30162902ADA63E9006DBB0B /* Debug */,
+				F30162912ADA63E9006DBB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30162922ADA63E9006DBB0B /* Build configuration list for PBXNativeTarget "FlipTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30162932ADA63E9006DBB0B /* Debug */,
+				F30162942ADA63E9006DBB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30162952ADA63E9006DBB0B /* Build configuration list for PBXNativeTarget "FlipTreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30162962ADA63E9006DBB0B /* Debug */,
+				F30162972ADA63E9006DBB0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F30162A02ADA723F006DBB0B /* FlipTreeModels */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FlipTreeModels;
+		};
+		F30162AB2ADAA697006DBB0B /* FlipTreeFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FlipTreeFoundation;
+		};
+		F30162AD2ADAA69E006DBB0B /* FlipTreeDataHandlers */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FlipTreeDataHandlers;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		F30162B22ADAABB7006DBB0B /* FlipTreeCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F30162B32ADAABB7006DBB0B /* FlipTreeCoreData.xcdatamodel */,
+			);
+			currentVersion = F30162B32ADAABB7006DBB0B /* FlipTreeCoreData.xcdatamodel */;
+			path = FlipTreeCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F30162622ADA63E7006DBB0B /* Project object */;
+}
