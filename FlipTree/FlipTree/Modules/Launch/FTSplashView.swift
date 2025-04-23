@@ -20,7 +20,7 @@ struct FTSplashView: View {
     @State var player: AVPlayer?
     
     /// The URL of the video resource in the app bundle.
-    let videoURL = Bundle.main.url(forResource: "movie", withExtension: "mp4")!
+    let videoURL = Bundle.main.url(forResource: "movie", withExtension: "mp4")//!
     
     var body: some View {
         ZStack {
@@ -55,6 +55,7 @@ struct FTSplashView: View {
                 .alignView(.center)
         }
         .onAppear {
+            guard let videoURL else{ return }
             player = AVPlayer(url: videoURL)
             player?.isMuted = true
             player?.play()
